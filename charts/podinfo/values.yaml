@@ -1,0 +1,15 @@
+# =============================================================================
+# values.yaml — valeurs du chart podinfo
+# =============================================================================
+# Point de départ MINIMAL. Vous l'enrichirez au fil des étapes de l'atelier
+# (message/couleur de l'UI à l'étape 4, HPA à l'étape 6, etc.).
+#
+# Au départ, seules l'image et le nombre de répliques sont définis.
+# =============================================================================
+
+image:
+  repository: ghcr.io/stefanprodan/podinfo
+  tag: "6.7.1"
+  pullPolicy: IfNotPresent
+
+replicaCount: 1
