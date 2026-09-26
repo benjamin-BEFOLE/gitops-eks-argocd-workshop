@@ -16,7 +16,7 @@ replicaCount: 1
 
 ui:
   message: "Bienvenue a l'atelier GitOps !"
-  color: "#16a34a"
+  color: "#d97706"
 
 resources:
   requests:
