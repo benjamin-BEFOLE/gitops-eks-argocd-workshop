@@ -21,6 +21,11 @@ spec:
           ports:
             - name: http
               containerPort: 9898
+          env:
+            - name: PODINFO_UI_MESSAGE
+              value: "{{ .Values.ui.message }}"
+            - name: PODINFO_UI_COLOR
+              value: "{{ .Values.ui.color }}"
           resources:
             requests:
               cpu: {{ .Values.resources.requests.cpu }}

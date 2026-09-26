@@ -14,6 +14,10 @@ image:
 
 replicaCount: 1
 
+ui:
+  message: "Bienvenue a l'atelier GitOps !"
+  color: "#34577c"
+
 resources:
   requests:
     cpu: 50m
